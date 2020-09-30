@@ -106,4 +106,32 @@ header nav a:hover {
 
 .carrossel-filmes {
     margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* customização do botão do carrossel */
+
+.owl-nav {
+    position: absolute;
+    top: 6.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.owl-prev span {
+    width: 10rem;
+    padding: 7.5rem 0.7rem 8.8rem 0.7rem;
+    background-color: rgba(0,0,0,.50);
+    font-size: 40px;
+    color: white;
+}
+
+.owl-next span {
+    width: 10rem;
+    padding: 7.5rem 0.7rem 8.8rem 0.7rem;
+    background-color: rgba(0,0,0,.50);
+    font-size: 40px;
+    color: white;
 }
