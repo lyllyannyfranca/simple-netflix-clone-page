@@ -113,25 +113,23 @@ header nav a:hover {
 
 .owl-nav {
     position: absolute;
-    top: 6.5rem;
+    top: 7rem !important;
     width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
 .owl-prev span {
-    width: 10rem;
-    padding: 7.5rem 0.7rem 8.8rem 0.7rem;
-    background-color: rgba(0,0,0,.50);
-    font-size: 40px;
+    background: none;
+    font-size: 55px;
     color: white;
 }
 
 .owl-next span {
-    width: 10rem;
-    padding: 7.5rem 0.7rem 8.8rem 0.7rem;
-    background-color: rgba(0,0,0,.50);
-    font-size: 40px;
+    background: none;
+    font-size: 55px;
     color: white;
 }

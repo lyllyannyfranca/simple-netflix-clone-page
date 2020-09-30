@@ -13,10 +13,56 @@
         width: 50%;
         height: 50%;
     }
+
+    .owl-nav {
+        position: absolute;
+        top: 7rem;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .owl-prev span {
+        background: none;
+        font-size: 45px;
+        color: white;
+    }
+    
+    .owl-next span {
+        background: none;
+        font-size: 45px;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .descricao {
         width: 50%;
+    }
+
+    .owl-nav {
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .owl-prev span {
+        background: none;
+        font-size: 55px;
+        color: white;
+    }
+    
+    .owl-next span {
+        background: none;
+        font-size: 55px;
+        color: white;
     }
 }
